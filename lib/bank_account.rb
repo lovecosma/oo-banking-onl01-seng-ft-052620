@@ -8,7 +8,7 @@ def initialize(name)
   @status = "open"
 end
 
-def depsit(amount)
+def deposit(amount)
 @balance += amount
 end
 
