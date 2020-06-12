@@ -17,7 +17,7 @@ end
 end
 
 def execute_transaction
-if @sender.balance > 50
+if @sender.balance >= 50
 @sender.balance -= @amount
 @receiver.balance += @amount
 self.amount = 0
