@@ -9,6 +9,6 @@ def initialize(sender, receiver, amount)
 end
 
 def valid?
-if @sender.status == "open"
+if @sender.valid? && @receiver.valid?
 end
 end
