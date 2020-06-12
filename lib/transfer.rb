@@ -20,6 +20,7 @@ def execute_transaction
 @sender.balance -= @amount
 @receiver.balance += @amount
 self.amount = 0
+if @sender.balance > 50 
 self.status = "complete"
 end
 
