@@ -8,6 +8,7 @@ def initialize(sender, receiver, amount)
   @status = "pending"
 end
 
-
-
+def valid?
+if @sender.status == "open"
+end
 end
