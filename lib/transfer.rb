@@ -19,7 +19,7 @@ end
 
 def execute_transaction
   binding.pry
-if @sender.balance > 50 && @sender.status == "open"
+if self.balance > 50 && @sender.status == "open"
 self.sender.balance -= elf.amount
 self.receiver.balance += self.amount
 self.amount = 0
